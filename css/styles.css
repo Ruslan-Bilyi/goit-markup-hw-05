@@ -626,8 +626,14 @@ img {
   fill: #4d5ae5;
 }
 
-.field:focus .modal-icon {
+.field:focus svg {
   fill: #4d5ae5;
+}
+
+input[type='checkbox']:checked + label > .textarea-label {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .modal-box {
@@ -711,4 +717,17 @@ img {
 
 .checkbox-link {
   color: #4d5ae5;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

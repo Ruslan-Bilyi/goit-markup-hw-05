@@ -446,6 +446,7 @@ img {
 .footer-social-list {
   display: flex;
   gap: 16px;
+  margin-top: 16px;
 }
 
 .thumb:hover,
@@ -460,11 +461,13 @@ img {
   margin-left: 80px;
 }
 
+.footer-social {
+}
+
 .form-text {
   color: #fff;
   line-height: 24px;
   letter-spacing: 0.32px;
-  padding-bottom: 16px;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -638,7 +641,6 @@ input[type='checkbox']:checked + label > .textarea-label {
 .modal-box {
   position: relative;
   display: block;
-  padding-left: 24px;
   margin-bottom: 8px;
 }
 

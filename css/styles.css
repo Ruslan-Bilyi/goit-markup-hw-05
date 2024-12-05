@@ -599,7 +599,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -626,7 +625,7 @@ img {
   fill: #4d5ae5;
 }
 
-.field:focus svg {
+.field:focus + svg {
   fill: #4d5ae5;
 }
 
@@ -713,6 +712,7 @@ input[type='checkbox']:checked + label > .textarea-label {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .checkbox-link {
